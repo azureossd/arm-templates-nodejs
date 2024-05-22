@@ -28,18 +28,18 @@
         ],
         "properties": {
           "siteConfig": {
-                    "appSettings": [
-                        {
-                            "name": "WEBSITE_NODE_DEFAULT_VERSION",
-                            "value": "~20"
-                        }
-                    ],
-                    "metadata": [
-                        {
-                            "name": "CURRENT_STACK",
-                            "value": "node"
-                        }
-                    ]},
+            "appSettings": [
+                {
+                    "name": "WEBSITE_NODE_DEFAULT_VERSION",
+                    "value": "~20"
+                }
+            ],
+            "metadata": [
+                {
+                    "name": "CURRENT_STACK",
+                    "value": "node"
+                }
+            ]},
           "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('hostingPlanName'))]"
         },
         "resources": [
